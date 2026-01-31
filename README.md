@@ -14,8 +14,11 @@ TrendMine turns public trend data from Reddit and Google Trends into practical b
 - Public data sources
 
 ## Running locally
-npm i
+
+```bash
+npm install
 npm run dev
+```
 
 ## to do
 
