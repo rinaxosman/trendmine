@@ -1,0 +1,7 @@
+project_id = "tyzsufvodukwevyaqvks"
+
+[functions.fetch-trends]
+verify_jwt = false
+
+[functions.generate-ideas]
+verify_jwt = false
