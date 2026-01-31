@@ -17,6 +17,8 @@ TrendMine turns public trend data from Reddit and Google Trends into practical b
 
 ```bash
 npm install
+```
+```bash
 npm run dev
 ```
 
