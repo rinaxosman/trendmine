@@ -15,13 +15,13 @@ export function Navbar({ onSignUpClick, onLogInClick }: NavbarProps) {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo / Brand */}
-          <div className="flex items-center gap-2">
-            {/* Placeholder for logo - will be replaced */}
-            <div className="w-8 h-8 rounded-lg bg-gradient-accent flex items-center justify-center">
-              <span className="text-white font-bold text-sm">T</span>
-            </div>
-            <span className="font-semibold text-lg text-foreground">TrendMine</span>
-          </div>
+          <a href="/" className="flex items-center h-12 w-12 shrink-0 overflow-hidden rounded-lg">
+            <img
+              src="/logo.png"
+              alt="trendmine"
+              className="h-full w-full object-cover object-center scale-110"
+            />
+          </a>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3">
